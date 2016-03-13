@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/jfltexx/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := phoenix_jfltexx
+PRODUCT_NAME := full_jfltexx
 PRODUCT_DEVICE := jfltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
