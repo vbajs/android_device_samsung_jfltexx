@@ -1,9 +1,9 @@
 $(call inherit-product, device/samsung/jfltexx/full_jfltexx.mk)
 
-# Enhanced NFC (IF THEY HAVE IT, if not then git clone from cyanogenmod SIMPLE!!!)
+# Enhanced NFC 
 $(call inherit-product, vendor/phoenix/config/nfc_enhanced.mk)
 
-# Inherit some common Phoenix stuff. (IF THEY HAVE IT, if not then git clone from cyanogenmod SIMPLE!!!)
+# Inherit some common Turbo stuff. 
 $(call inherit-product, vendor/phoenix/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
