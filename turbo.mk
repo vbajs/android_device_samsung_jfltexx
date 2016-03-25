@@ -13,5 +13,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
   PRIVATE_BUILD_DESC="jfltexx-user 5.0.1 LRX22C I9505XXUHOB7 release-keys"
 
 PRODUCT_DEVICE := jfltexx
-PRODUCT_NAME := phoenix_jfltexx
+PRODUCT_NAME := turbo_jfltexx
 
