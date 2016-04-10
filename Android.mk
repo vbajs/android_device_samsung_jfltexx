@@ -23,7 +23,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter jfltexx,$(TARGET_DEVICE)),)
-
+$(error This jflte tree is no longer updated, please use the updated verison here https://github.com/TurboROM-Devices/device_samsung_jfltexx. Terminating the build because you are dumb as FUCK!!!! sorry, but you just pissed me off....)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 include $(CLEAR_VARS)
