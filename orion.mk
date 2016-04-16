@@ -1,10 +1,10 @@
 $(call inherit-product, device/samsung/jfltexx/full_jfltexx.mk)
 
 # Enhanced NFC 
-$(call inherit-product, vendor/phoenix/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/orion/config/nfc_enhanced.mk)
 
 # Inherit some common Turbo stuff. 
-$(call inherit-product, vendor/phoenix/config/common_full_phone.mk)
+$(call inherit-product, vendor/orion/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
   PRODUCT_NAME=jfltexx \
@@ -13,5 +13,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
   PRIVATE_BUILD_DESC="jfltexx-user 5.0.1 LRX22C I9505XXUHOB7 release-keys"
 
 PRODUCT_DEVICE := jfltexx
-PRODUCT_NAME := turbo_jfltexx
+PRODUCT_NAME := orion_jfltexx
 
